@@ -1,0 +1,507 @@
+@charset 'utf-8';
+.show{
+    height: 670px;
+}
+.banner{
+
+    position: relative;
+    height: 460px;
+    >.list-nav{
+        height: 460px;
+       
+        padding: 20px 0;
+        box-sizing: border-box;
+        background: rgba(105,101,101,.6);
+        position: absolute;
+        >li{
+            >a{
+                color: #ffffff;
+                display: block;
+                height: 42px;
+                width: 234px;
+                padding-left: 30px;
+                line-height: 42px;
+            
+                position: relative;
+                >span{
+                    position: absolute;
+                    top: 12px;
+                    right: 20px;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #e0e0e0;
+                }
+            }
+        }
+    }
+}
+.banner-bottom{
+    height: 170px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    .home{
+        width: 234px;
+        margin: 0;
+        padding: 3px;
+        list-style-type: none;
+        font-size: 12px;
+        text-align: center;
+        background: #5f5750;
+
+        >li{
+            position: relative;
+            float: left;
+            width: 76px;
+            height: 82px;
+            padding: 0 3px;
+            float: left;
+            box-sizing: border-box;
+            a{
+           
+                display: block;
+                padding-top: 18px;
+                color: #fff;
+                font-size: 12px;
+                text-align: center;
+            }
+            a::after{
+                content: "";
+                position: absolute;
+                top: 6px;
+                left: 0;
+                width: 1px;
+                height: 70px;
+                background: #665e57;
+            }
+            a::before{
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 6px;
+                width: 64px;
+                height: 1px;
+                background: #665e57;
+            }
+            img{
+                display: block;
+                width: 24px;
+                height: 24px;
+                margin: 0 auto 4px;
+            }
+        }
+    }
+    >img{
+        display: block;
+        width: 316px;
+        height: 170px;
+    }
+}
+.main{
+    padding-top: 4px;
+    padding-bottom: 12px;
+    background: #f5f5f5;
+    .mi-speed-buy{
+        h2{
+            margin: 0;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 58px;
+        color: #333;
+        position: relative;
+    
+        .menu{
+            position: absolute;
+            right: 0;
+            top: 7px;
+            height: 24px;
+            span{
+         
+                box-sizing: content-box;
+                display: inline-block;
+                width: 24px;
+                height: 16px;
+                padding: 3px 5px;
+                margin-left: -1px;
+                border: 1px solid #e0e0e0;
+                font-size: 16px;
+                line-height: 16px;
+                -webkit-transition: color .5s;
+                transition: color .5s;
+                color: #b0b0b0;
+                text-align: center;
+                cursor: pointer;
+             
+                 }
+             }
+        }
+        .mi-shop{
+         
+            
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+       
+           .top{
+            
+            border-top: #e53935 1px solid;
+            width: 234px;
+            height: 340px;
+            padding-top: 39px;
+            box-sizing: border-box;
+            background: #f1eded;
+            .items-title{
+                text-align: center;
+                font-size: 21px;
+                color: #ef3a3b;
+                padding-top: 15px;
+            }
+            img{
+                display: block;
+                width: 34px;
+                height: 53px;
+                margin: 25px auto;
+            }
+            p{
+                color: rgba(0,0,0,.54);
+                font-size: 15px;
+                text-align: center;
+            }
+            .time{
+                width: 168px;
+                margin: 28px auto 0;
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                span{
+                    width: 46px;
+                    height: 46px;
+                    background: #605751;
+                    color: #fff;
+                    font-size: 24px;
+                    line-height: 46px;
+                    float: left;
+                  
+                }
+                i{
+                    width: 15px;
+                    float: left;
+                    height: 46px;
+                    line-height: 46px;
+                    color: #605751;
+                    font-size: 28px;
+                    font-style: normal;
+                }
+            }
+    
+           }
+           .pro{
+               border-top: 1px solid #83c44e;
+               width: 234px;
+               height: 339px;
+               background-color:rgba(0,0,0,.02);
+               a{
+                   display: block;
+                   width: 234px;
+                   height: 300px;
+                   padding-top: 39px;
+                   img{
+                       display: block;               
+                       
+                        margin: 0 auto 22px;
+                        width: 160px;
+                        height: 160px;
+                   }
+                   .items-title{
+                    margin: 0 20px 3px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-overflow: ellipsis;
+                    color: #212121;
+                    overflow: hidden;
+                    white-space: nowrap;
+                   }
+                   p:nth-of-type(1){
+                    height: 18px;
+                    margin: 0 20px 12px;
+                    font-size: 12px;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                    color: #b0b0b0;
+                    overflow: hidden;
+                    white-space: nowrap;
+                   }
+                   p:nth-of-type(2){
+                    margin: 0;
+                    color: #ff6709;
+                    text-align: center;
+                    del{
+                        color: #b0b0b0;
+                    }
+                   }
+               }
+           }
+        }
+        
+    }
+    // 每个部分下面的长图片----------------------
+    .main-banner{
+        height: 120px;
+        margin: 22px 0;
+        overflow: hidden;
+     img{
+        width: 1226px;
+        height: 120px;
+     }
+    }
+    // 每个部分标题栏后面的more------------------------
+    .more{
+    position: absolute;
+    top: 0;
+    right: 0;
+        a{
+   
+        font-size: 16px;
+        line-height: 58px;
+        color: #424242;
+        -webkit-transition: all .4s;
+        transition: all .4s;
+        }
+        li{
+            font-size: 16px;
+            display: inline-block;
+            color: black;
+            transition: border .3s;
+            cursor: pointer;
+            line-height: 1.5;
+            margin: 0 0 0 30px;
+        
+        }
+        .active{        
+            color: #ff6700;
+            border-bottom: 2px solid #ff6700;
+        }
+    }
+    // 每个部分的title---------------------------
+    .title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+     position: relative;
+    }   
+    //pro-----------------------------------------
+    .pro{
+        .col-4{
+            height: 614px;
+            float: left;
+            width: 234px;
+            -webkit-transition: all .2s linear;
+            transition: all .2s linear;
+            li{
+                height: 300px;
+                position: relative;
+                z-index: 1;
+                float: left;
+                width: 234px;
+                margin-bottom: 14px;
+                background: #fff;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+                img{
+                    width: 234px;
+                    height: 300px;
+                }
+            }
+            
+        }
+        .col-16 {
+            li{
+                width: 234px;
+                height: 260px;
+                padding: 20px 0;   
+                float: left;
+                margin-left: 14px;
+                margin-bottom: 14px;
+                background: #fff;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+                text-align: center;
+                box-sizing: content-box;
+                .items-pictuer{
+                    width: 160px;
+                    height: 160px;
+                    margin: 0 auto 18px;
+                    img{
+                        width: 160px;
+                        height: 160px;
+                    }
+                }
+                .items-title{
+                    margin: 0 10px 2px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-overflow: ellipsis;
+                    color: #212121;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    line-height: 1.5;
+                }
+                p:nth-of-type(1){
+                    height: 18px;
+                    margin: 0 10px 10px;
+                    font-size: 12px;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                    color: #b0b0b0;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+                p:nth-of-type(2){
+                    margin: 0 10px 14px;
+                    color: #ff6709;
+                    text-align: center;
+                    del{
+                        color: #b0b0b0;
+                     }
+                }
+            }
+// last-items每个部位的最后一个上下布局---------
+            .last-pro{
+                 padding: 0;
+                 height: 300px;
+                 background-color: #f5f5f5;
+                .last-items{
+                height: 93px;
+                padding-top: 50px;
+                position: relative;
+                z-index: 1;
+                float: left;
+                width: 234px;
+                text-align: left;
+                margin-bottom: 14px;
+                background: #fff;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+                box-sizing: content-box;
+                    .last-items-title{
+                    color: #333;
+                    margin: -10px 110px 5px 30px ;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    }
+                    p{
+                    text-align: left;
+                    margin: 0 110px 0 30px;
+                    color: #ff6700;
+                    font-size: 14px;
+                    span{
+                    
+                    color: #ff6700;
+                    }       
+                  }
+            
+                    .last-items-picture{
+                    width: 80px;
+                    height: 80px;
+                    position: absolute;
+                    right: 20px;
+                    top: 32px;
+                    width: 80px;
+                    height: 80px;
+                        }
+                    .look-more{              
+                        margin: 0 110px 0 30px;
+                        font-size: 18px;
+                        color: #333;
+                        b{
+                            display: block;
+                            font-size: 12px;
+                            color: #757575;
+                        }
+                    }
+                    .look{
+                        position: absolute;
+                        right: 35px;
+                        top: 48px;
+                        width: 48px;
+                        height: 48px;
+                        i{
+                            display: block;
+                            font-size: 51px;
+                            line-height: 48px;
+                            color: #ff6700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+    // 手机---------------------------------------
+    .phone{
+        position: relative;
+    
+        .phone-title{
+            margin: 0;
+            font-size: 22px;
+            font-weight: 200;
+            line-height: 58px;
+            color: #333;
+            position: relative;
+            .more{
+                position: absolute;
+                top: 0;
+                right: 0;
+                a{
+               
+                    font-size: 16px;
+                    line-height: 58px;
+                    color: #424242;
+                    -webkit-transition: all .4s;
+                    transition: all .4s;
+    
+                    .see-all-next{
+                        width: 12px;
+                        height: 12px;
+                        padding: 4px;
+                        margin-left: 8px;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        line-height: 12px;
+                        background: #b0b0b0;
+                        color: #fff;
+                        vertical-align: 1px;
+                        -webkit-transition: all .4s;
+                        transition: all .4s;
+                        box-sizing: content-box;
+                    }
+                }
+            }
+        }
+
+        .pro{
+
+
+            .col-4{
+                height: 614px;
+                float: left;
+                width: 234px;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+                img{
+                    width: 234px;
+                    height: 614px;
+                }
+                
+            }
+          
+        }
+      
+        
+    }
+    // 家电---------------------------------------
+ 
+}
