@@ -1,0 +1,172 @@
+@charset 'utf-8';
+.server .server-top {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.server .server-top li {
+  width: 245.2px;
+  float: left;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.server .server-top li a {
+  color: #616161;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.server .server-top li a i {
+  margin-right: 6px;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: -4px;
+}
+.server .server-items {
+  padding: 40px 0;
+}
+.server .server-items .server-active {
+  float: left;
+}
+.server .server-items .server-active ul {
+  float: left;
+}
+.server .server-items .server-active ul .items-title {
+  margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+}
+.server .server-items .server-active ul .items-p {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+.server .server-items .server-active ul li {
+  width: 160px;
+  text-align: left;
+}
+.server .server-items .server-active ul li a {
+  color: #757575;
+}
+.server .server-items .server-phone {
+  float: right;
+  width: 251px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+.server .server-items .server-phone .phone-num {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+.server .server-items .server-phone .server-time {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.server .server-items .server-phone a {
+  display: block;
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  background: #fff;
+  color: #ff6700;
+  border: 1px solid #ff6700;
+  margin: 0 auto;
+}
+.server .server-items .server-phone .wx {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.server .server-items .server-phone .wx .wb {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-top: -3px;
+  background: url(../img/wb.png) center no-repeat;
+  background-size: cover;
+}
+.server .server-items .server-phone .wx .wx {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-top: -3px;
+  background: url(../img/wx.png) center no-repeat;
+  background-size: cover;
+}
+.footer {
+  padding: 30px 0;
+  font-size: 12px;
+  background: #fafafa;
+}
+.footer .logo {
+  float: left;
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+}
+.footer .footer-news {
+  float: left;
+}
+.footer .footer-news .footer-nav {
+  margin: 0;
+}
+.footer .footer-news .footer-nav a {
+  color: #757575;
+}
+.footer .footer-news .footer-nav span {
+  font-family: sans-serif;
+  margin: 0 0.25em;
+}
+.footer .footer-news .site {
+  color: #b0b0b0;
+}
+.footer .footer-news .site a {
+  color: #b0b0b0;
+}
+.footer .footer-news .safe {
+  vertical-align: bottom;
+}
+.footer .footer-news .safe img {
+  width: auto;
+  height: 28px;
+  margin-left: 0;
+}
+.footer .footer-news .safe-date {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  overflow: hidden;
+  margin-left: 5px;
+  position: relative;
+  vertical-align: bottom;
+}
+.footer .footer-news .safe-date .img1 {
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+.footer .footer-news .safe-date .img2 {
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.footer .footer-picture {
+  clear: both;
+  margin: 30px auto 0;
+  width: 100%;
+  height: 19px;
+  background: url(../img/slogan2020.png) no-repeat center 0;
+}
