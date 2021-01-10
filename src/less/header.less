@@ -1,6 +1,7 @@
 @charset 'utf-8';
-
-
+@import url(../css/shop-car.css);
+@import url(../css/header-search.css);
+@import url(../css/banner.css);
 .header-img {
     width: 100%;
     a {
@@ -22,14 +23,63 @@
   
         float: left;
         span{
+            
         margin: 0 .3em;
         color: #424242;
          }
     }
     a{
+        display: inline-block;
+        position: relative;
         font-size:12px;
         color: #b0b0b0;
- 
+        &:hover{
+        color: #fff;
+            .tip-top{
+             display: block;
+            }
+            .appcode{
+                height: 148px;
+                font-weight: 500;
+            }
+            .appcode{
+                height: 148px;
+                
+            }
+        }
+       
+        .tip-top{
+            display: none;
+            position: absolute;
+            left: 35%;
+            top: 30px;
+            color: #fff;
+        }
+       .appcode{
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        width: 124px;
+        height: 0;
+        background: #fff;
+        margin-left: -55px;
+        -webkit-box-shadow: #aaa 0 1px 5px;
+        box-shadow: 0 1px 5px #aaa;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 1;
+        overflow: hidden;
+        -webkit-transition: height .3s;
+        transition: height .3s;
+            img{
+                display: block;
+                margin: 18px auto 12px;
+                width: 90px;
+                height: 90px;
+            }
+       }
+     
        }
     .nav_right{
         float: right;
@@ -41,6 +91,8 @@
             width: 120px;
             height: 40px;
             background: #424242;
+            position: relative;
+            margin-left: 15px;
             i{
                 margin-right: 4px;
                 font-size: 20px;
@@ -49,6 +101,16 @@
             }
             >span{
                 color: #b0b0b0;
+            } 
+            &:hover{
+                background-color: #fff;
+                color: #ff6700;
+                .car-menu{
+                    height: 100px;
+                }
+                span{
+                    color: #ff6700; 
+                }
             }
         }
         span{
@@ -57,18 +119,29 @@
              }
     }
 }
+
 .header-search{
     width: 100%;
     height: 100px;
+    position: relative;
    
-    .logo{
-        display: block;
-        float: left;
-        width: 55px;
-        height: 55px;
-        background:#ff6700  url(../img/mi-logo.png) center;
-        margin-top: 22px;
-        margin-right: 172px;
+    .logo-img{
+            float: left;
+            width: 55px;
+            height: 55px;
+            margin-top: 22px;
+            margin-right: 172px;
+        .logo{ 
+            width: 55px;
+            height: 55px;
+            display: block;  
+            background:#ff6700  url(../img/sprite.png);
+            background-position: -46px center;
+            transition: all 0.3s;
+            &:hover{
+                background-position: 3px center;
+            }   
+        }
     }
     ul{
         overflow: hidden;
@@ -80,18 +153,22 @@
         padding:0  10px; 
         line-height: 100px;
         font-size: 16px;
+        position: relative;
     }
     
     .input-search{
         float: right;
-        line-height: 100px;
+        line-height: 50px;
+        padding: 25px 0;
         input[type="text"]{
             width: 245px;
             box-sizing: border-box;
             height: 50px;
             padding: 0 10px;
             vertical-align: middle;
-            border: 1px solid #e0e0e0;
+            border: 2px solid #e0e0e0;
+            border-right: 0;
+            outline: none;
         }
         input[type="submit"]{
             width: 52px;
@@ -99,9 +176,12 @@
             height: 50px;
             padding: 0 6px;
             vertical-align: middle;
-            font-size: 24px;
+            font-size: 18px;
+            font-weight: 900;
             background-color: #fff;
-            border: 1px solid #e0e0e0;
+            border: 2px solid #e0e0e0;
+            outline: none;
+            
         }
     }
  
@@ -117,3 +197,4 @@
     visibility: hidden;
     clear: both;
 }
+ 

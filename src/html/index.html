@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Bootstrap 101 Template</title>
-
+    <script src="../js/index.js" type="module"></script>
 
     <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
     <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css"> i
+    <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/iconfont.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/footer.css">
+
 
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -44,25 +45,40 @@
                 <a href="">企业团购</a><span>|</span>
                 <a href="">资质证照</a><span>|</span>
                 <a href="">协议规则</a><span>|</span>
-                <a href="">下载app</a><span>|</span>
+                <a href="">下载app 
+                    <i class="glyphicon glyphicon-triangle-top tip-top">
+                    </i>
+                    <b class="appcode">
+                        <img src="../img/download.png" alt="">
+                        小米商城APP
+                    </b>
+                </a><span>|</span>
                 <a href="">智能生活</a><span>|</span>
                 <a href="">Select Location</a>
             </nav>
             <nav class="nav_right">
                 <a href="">登录</a><span>|</span>
                 <a href="">注册</a><span>|</span>
-                <a href="">消息通知</a>
+                <a href="" style="margin: 0 10px 0 0;">消息通知</a>
                 <a href="" class="shop-car">
-                    <i class="iconfont ">&#xf0179;</i>购物车<span>(0)</span></a>
+                    <i class="iconfont ">&#xf0179;</i>购物车<span>(0)</span>
+                    <div class="car-menu">
+                        <div class="loading">
+                            <div class="load"></div>
+                        </div>
+                    </div>
+                </a>
             </nav>
 
         </div>
     </div>
     <div class="header-search">
         <div class="wrapper">
-            <a href="" class="logo"></a>
-            <ul>
-                <li>小米手机 </li>
+            <div class="logo-img">
+                <a href="" class="logo"></a>
+            </div>
+            <ul class="header-nav-second">
+                <li>小米手机</li>
                 <li>Redmi 红米</li>
                 <li>电视</li>
                 <li>笔记本</li>
@@ -71,7 +87,6 @@
                 <li>智能硬件</li>
                 <li>服务</li>
                 <li>社区</li>
-
             </ul>
             <div class="input-search">
                 <form action="">
@@ -80,20 +95,2124 @@
 
             </div>
         </div>
+        <div class="header-nav-second-menu">
+            <div class="wrapper">
+                <li class="nav-pro first">
+                    <a href="">
+                        <div class="pro-img">
+                            <img src="../img/963679eaf3937351e154600ab3448460.webp" alt="">
+                        </div>
+                        <h6 class="items-title">小米11</h6>
+                        <p>3999元起</p>
+
+                    </a>
+                </li>
+                <li class="nav-pro">
+                    <a href="">
+                        <div class="pro-img">
+                            <img src="../img/b11742a0be47f9d97bb6a13ea580018d.webp" alt="">
+                        </div>
+                        <h6 class="items-title">小米10至尊纪念版</h6>
+                        <p>5299元起</p>
+
+                    </a>
+                </li>
+                <li class="nav-pro">
+                    <a href="">
+                        <div class="pro-img">
+                            <img src="../img/a4a76ee684e51f0ee531ef3dc7f0aeaf.webp" alt="">
+                        </div>
+                        <h6 class="items-title">小米10</h6>
+                        <p>3799元起</p>
+
+                    </a>
+                </li>
+                <li class="nav-pro">
+                    <a href="">
+                        <div class="pro-img">
+                            <img src="../img/3bf20f1df3f2e22c5b29ff07634f3c59.webp" alt="">
+                        </div>
+                        <h6 class="items-title">小米10 青春版 5G</h6>
+                        <p>1999元起</p>
+
+                    </a>
+                </li>
+                <li class="nav-pro">
+                    <a href="">
+                        <div class="pro-img">
+                            <img src="../img/5d19da60f9f62eb2aa5dcdbd7df19f0f.webp" alt="">
+                        </div>
+                        <h6 class="items-title">小米MIX Alpha</h6>
+                        <p>19999元</p>
+
+                    </a>
+                </li>
+            </div>
+        </div>
     </div>
+
     <div class="show">
         <div class="wrapper banner">
             <ul class="list-nav">
-                <li><a href="">手机 电话卡 <span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">电视盒子<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">笔记本 显示器<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">家电 插线板<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">出行 穿戴<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">智能 路由器<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">电源 配件<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">健康 儿童<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">耳机 音响<span class="glyphicon  glyphicon-menu-right"></span></a></li>
-                <li><a href="">生活 箱包<span class="glyphicon  glyphicon-menu-right"></span></a></li>
+                <li>
+                    <a href="">手机 电话卡 <span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-one">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">电视 盒子<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-two">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">笔记本 显示器<span class="glyphicon  glyphicon-menu-right"></span></a>
+                    <div class="list-nav-items list-nav-three">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">家电 插线板<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-four">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">出行 穿戴<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-five">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">智能 路由器<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-six">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">电源 配件<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-seven">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">健康 儿童<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-8">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">耳机 音响<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-9">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">生活 箱包<span class="glyphicon  glyphicon-menu-right"></span>
+                    </a>
+                    <div class="list-nav-items list-nav-10">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/a51c1afa4db8e47e62fad1f6fa4a8970.webp" alt="">
+                                    <span class="text">
+                                        小米11
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/5ca871528d3420622f21f25be7aba58c.webp" alt="">
+                                    <span class="text">
+                                        小米10 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/4a7a4f24061860901f724b6ba6d75fd9.webp" alt="">
+                                    <span class="text">
+                                        小米10
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/cc563c76a7383d8030d1c23f31c60cb9.webp" alt="">
+                                    <span class="text">
+                                        小米10 青春版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/69a0df49cff71107977bbe3b48af15fa.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30S 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg" alt="">
+                                    <span class="text">
+                                        小米云服务
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/461bf013d08a7a91423cafcbc5ff9339.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 Pro 变焦版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/0803dc7125ffa3447b04b1ae60f57a2b.webp" alt="">
+                                    <span class="text">
+                                        Redmi K30 至尊纪念版
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/7a98170e97ca5df8f5ad2470a8a2d01e.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X Pro
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/f774ef8332f2204a7c8fbf1b92f29e8a.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 5G
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/afa28e7477639537f556eb46e3ca5f43.webp" alt="">
+                                    <span class="text">
+                                        Redmi 10X 4G
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
 
             </ul>
         </div>
@@ -1269,9 +3388,9 @@
 
     </div>
 
-    <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <!-- <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="../js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap-3.3.7-dist/js/npm.js"></script>
+    <script src="../js/bootstrap-3.3.7-dist/js/npm.js"></script> -->
 </body>
 
 </html>
