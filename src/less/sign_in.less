@@ -1,0 +1,455 @@
+@charset 'utf-8';
+@import '../css/reset.css';
+@import '../iconfont/iconfont.css';
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sign_box{
+    width: 854px;
+    margin:0 auto;
+    margin-top: 140px;
+    padding:0 34px 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+    .mi-logo{
+        padding-bottom: 40px;
+        img{
+            width: 49px;
+            height: 48px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    h4{
+        font-size: 30px;
+        color: #333;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 500;
+    }
+    .sign_form{
+        width: 332px;
+        padding: 30px 0;
+        line-height: 20px;
+        margin: 0 auto;
+        display: block;
+        h6{
+            padding-bottom: 5px;
+            color: #333;
+            font-size: 14px;
+        }
+        .area{
+            padding-bottom: 15px;
+            position: relative;
+            .text{
+                height: 40px;
+                padding-left: 14px;
+                line-height: 40px;
+                display: inline-block;
+                vertical-align: middle;
+                border: 1px solid #e8e8e8;
+                color: #555;
+                cursor: pointer;
+                p{
+                    float: left;
+                    width: 275px;
+                    border-right: 1px solid #e8e8e8;
+                    cursor: pointer;
+                }
+                i{
+                    float: right;
+                    background: url(../img/icon_user.png);
+                    width: 16px;
+                    height: 16px;
+                    margin: 11px 12px 0 12px;
+                }
+            }
+            .area_hide{
+                display: none;
+            }
+            .area_option{
+                width: 100%;
+                background: #fff;
+                height: 270px;
+                line-height: 30px;
+                border: 1px solid #e8e8e8;
+                box-sizing: border-box;
+                overflow-x: hidden;
+                overflow-y: auto;
+                position: absolute;
+                left: 0;
+                top: 41px;
+                z-index: 98;
+                .search{
+                    padding: 10px;
+                    input[type="text"]{
+                        width: 274px;
+                        height: 22px;
+                        line-height: 22px;
+                        padding: 5px 10px 5px 10px;
+                        display: block;
+                        border: 1px solid #e0e0e0;
+                        outline: none;
+                    }
+                }
+                .country{
+                    .country_title{
+                        background: #fcdecc;
+                        padding-left: 10px;
+                        margin-bottom: 6px;
+                        line-height: 30px;
+                        color: #ef5b00 !important;
+                    }
+                    .country_name{
+                        padding: 0 10px;
+                        line-height: 39px;
+                        clear: both;
+                        overflow: hidden;
+                        color: #000;
+                        border-bottom: 1px solid #e0e0e0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .sign_tip{
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+        .sign_phone{
+            padding-bottom: 15px;
+
+            .sign_phone_text{
+                margin-left: -1px;
+                position: relative;
+                height: 42px;
+                line-height: 42px;
+                border: 1px solid #e8e8e8;
+                .area_phone{
+                    float: left;
+                    .area_phone_num{
+                        border-right: 1px solid #e8e8e8;
+                        width: 54px;
+                        text-align: center;
+                        height: 40px;
+                        padding-left: 14px;
+                        line-height: 40px;
+                        display: block;
+                        color: #555;
+                        cursor: pointer;
+                        span{
+                            float: left;
+                        }
+                        i{
+                            float: left;
+                            margin: 17px 0 0 10px;
+                            width: 0;
+                            height: 0;
+                            line-height: 0;
+                            font-size: 0;
+                            border-width: 5px;
+                            border-style: solid;
+                            border-color: #9d9d9d transparent transparent                   transparent;
+                        }
+                    }
+                    .area_option{
+                        display: none;
+                        width: 100%;
+                        background: #fff;
+                        height: 270px;
+                        line-height: 30px;
+                        border: 1px solid #e8e8e8;
+                        box-sizing: border-box;
+                        overflow-x: hidden;
+                        overflow-y: auto;
+                        position: absolute;
+                        left: 0;
+                        top: 41px;
+                        z-index: 98;
+                        .search{
+                            padding: 10px;
+                            input[type="text"]{
+                                width: 274px;
+                                height: 22px;
+                                line-height: 22px;
+                                padding: 5px 10px 5px 10px;
+                                display: block;
+                                border: 1px solid #e0e0e0;
+                                outline: none;
+                            }
+                        }
+                        .country{
+                            .country_title{
+                                background: #fcdecc;
+                                padding-left: 10px;
+                                margin-bottom: 6px;
+                                line-height: 30px;
+                                color: #ef5b00 !important;
+                            }
+                            .country_name{
+                                padding: 0 10px;
+                                line-height: 39px;
+                                clear: both;
+                                overflow: hidden;
+                                color: #000;
+                                border-bottom: 1px solid #e0e0e0;
+                                cursor: pointer;
+                                span{
+                                    float: left;
+                                }
+                                i{
+                                    float: right;
+                                    color: #9d9d9d
+                                }
+                            }
+                        }
+                    }
+                }
+                .phone_num{
+                    width: 240px;
+                    height: 20px;
+                    line-height: 20px;
+                    padding: 10px;
+                    display: inline-block;
+                    outline: none;
+                    border: none;
+                }
+            }   
+        }
+        .error_tip{
+            visibility: hidden;
+            margin-top: -8px;
+            margin-bottom: 5px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #f66;
+            i{
+                width: 14px;
+                height: 14px;
+                margin: -1px 5px 0 0;
+                overflow: hidden;
+                display: inline-block;
+                vertical-align: middle;
+                background-image: url(../img/error_tip.png);
+                background-repeat: no-repeat
+            }
+        }
+        .sub_btn{
+            input[type="button"]{
+              background-color: #ff6700;
+              margin-top: 15px;
+              border: 1px solid rgba(186,186,186,.3);
+              color: #fff;
+              width: 330px;
+              height: 42px;
+              margin: 0 auto;
+              line-height: 42px;
+              text-align: center;
+              font-size: 14px;
+              display: block;
+              cursor: pointer;
+              overflow: hidden;
+              margin-top: 15px;
+              &:hover{
+                background: #ff936a;
+              }
+            }
+        }
+    }
+    .sign_msg{
+        text-align: center;
+        margin-top: 40px;
+        color: #9d9d9d;
+        padding: 10px 0;
+        cursor: pointer;
+        display: block;
+        a{
+            color: #333;
+            font-weight:600 ;
+        }
+    }
+    .phone_res{
+        display: none;
+        width: 332px;
+        padding: 30px 0;
+        line-height: 20px;
+        margin: 0 auto;
+        .news_tip{
+            padding: 30px 0 20px;
+            .news_title{
+                color: #333;
+                font-size: 15px;
+                font-weight: bold;
+                .news_phone{
+                    color: #ff6700;
+                }
+            }
+        }
+        .in_phone{
+            padding-bottom: 15px;
+            .in_text{
+                height: 42px;
+                line-height: 42px;
+                border: 1px solid #e8e8e8;
+                .phone_text{
+                    display: inline-block;
+                    width: 190px;
+                    
+                    height: 20px;
+                    line-height: 20px;
+                    padding: 10px;
+                    outline: none;
+                    border: 0;
+                    box-sizing: border-box;
+                }
+                .send_phone{
+                    margin-left: 8px;
+                    vertical-align: middle;
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                    .re_send{
+                        color: #000;
+                        cursor: pointer;
+                        padding: 0 10px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        .error{
+            a{
+                color: #46639c;
+            }
+        }
+        .next{
+            background-color: #ff6700;
+            border: 1px solid rgba(186,186,186,.3);
+       
+            color: #fff;
+            width: 330px;
+            height: 42px;
+            margin: 0 auto;
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+        .prev{
+            background: #fff; 
+            border: 1px solid #ddd;
+            color: #7c7c7c;
+            margin-top: 15px;
+            width: 330px;
+            height: 42px;
+            margin: 0 auto;
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+    }
+    .sign_news{
+        display: none;
+        width: 332px;
+        padding: 30px 0;
+        line-height: 20px;
+        margin: 0 auto;
+        li{
+            margin: 15px 0;
+            .sign_num{
+                font-size: 14px;
+                .phone_n{
+                    color: #ff6700;
+                }
+            }
+            .input_txt{
+                padding-bottom: 15px;
+                .input_text{
+                    height: 42px;
+                    line-height: 42px;
+                    border: 1px solid #e8e8e8;
+                    outline: none;
+                    .pass_one,.pass_two{
+                        width: 310px;
+                        height: 20px;
+                        line-height: 20px;
+                        padding: 10px;
+                        display: inline-block
+                    }
+                }
+            }
+        }
+        .pass_tip{
+            margin-top: -8px;
+            color: #555;
+            .icon_error{
+                width: 14px;
+                height: 14px;
+                margin: -1px 5px 0 0;
+                overflow: hidden;
+                display: inline-block;
+                vertical-align: middle;
+                // display: none;
+                background: url(../img/errpr.png) no-repeat;
+              
+            }
+        }
+        .last_sub{
+            .sub_bttn{
+                background-color: #ff6700;
+                border: 1px solid rgba(186,186,186,.3);
+                color: #fff;
+                height: 42px;
+                width: 330px;
+                margin: 0 auto;
+                line-height: 42px;
+                text-align: center;
+                font-size: 14px;
+                display: block;
+                cursor: pointer;
+                overflow: hidden;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+.color{
+    color:red !important;
+}
+.login-footer {
+    padding-top: 100px;
+    position: relative;
+    z-index: 4;
+    height: 80px;
+    text-align: center;
+    .login-footer-nav {
+        color: #757575;
+        a {
+            color: #757575;
+            padding: 0 10px;
+            &:hover {
+                color: #333;
+              }
+          }
+      }
+      .inter-safe {
+        color: #757575;
+        padding: 10px;
+      }
+  }
+

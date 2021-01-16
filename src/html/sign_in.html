@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/sign_in.css">
+    <script src="../js/sign.js" type="module"></script>
+</head>
+
+<body>
+    <div class="sign_box">
+        <form action="../../interface/library/reg.php" method="POST">
+            <div class="mi-logo">
+                <img src="https://account.xiaomi.com/static/res/349d9c1/account-static/respassport/acc-2014/img/milogo.png" alt="">
+            </div>
+            <h4>注册小米帐号</h4>
+            <div class="sign_form">
+                <h6>国家/地区</h6>
+                <div class="area">
+                    <div class="text clearfloat">
+                        <p>中国</p>
+                        <i class="iconfont"></i>
+                    </div>
+                    <div class="area_option area_hide">
+                        <div>
+                            <div class="search">
+                                <input type="text">
+                            </div>
+                            <div class="country">
+                                <div class="country_A">
+                                    <p class="country_title">A</p>
+                                    <ul class="list">
+                                        <li class="country_name">阿富汗</li>
+                                        <li class="country_name">阿富汗</li>
+                                        <li class="country_name">阿富汗</li>
+                                        <li class="country_name">阿富汗</li>
+                                        <li class="country_name">阿富汗</li>
+                                        <li class="country_name">阿富汗</li>
+
+                                        <li class="country_name">阿富汗</li>
+                                    </ul>
+                                </div>
+                                <div class="country_B">
+                                    <p class="country_title">B</p>
+                                    <ul class="list">
+                                        <li class="country_name">巴哈马</li>
+                                        <li class="country_name">巴哈马</li>
+                                        <li class="country_name">巴哈马</li>
+                                        <li class="country_name">巴哈马</li>
+                                        <li class="country_name">巴哈马</li>
+                                        <li class="country_name">巴哈马</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="sign_tip">成功注册帐号后，国家/地区将不能被修改</p>
+                <h6>手机号码</h6>
+                <div class="sign_phone">
+                    <div class="sign_phone_text clearfloat">
+                        <div class="area_phone">
+                            <div class="area_phone_num">
+                                <span>+86</span>
+                                <i></i>
+                            </div>
+                            <div class="area_option  country_phone">
+                                <div>
+                                    <div class="search">
+                                        <input type="text">
+                                    </div>
+                                    <div class="country">
+                                        <div class="country_A">
+                                            <p class="country_title">A</p>
+                                            <ul class="list">
+                                                <li class="country_name clearfloat"><span>阿富汗</span><i>+90</i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="country_B">
+                                            <p class="country_title">B</p>
+                                            <ul class="list">
+                                                <li class="country_name">巴哈马</li>
+                                                <li class="country_name">巴哈马</li>
+                                                <li class="country_name">巴哈马</li>
+                                                <li class="country_name">巴哈马</li>
+                                                <li class="country_name">巴哈马</li>
+                                                <li class="country_name">巴哈马</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="请输入电话号" class="phone_num" name="username">
+                    </div>
+                </div>
+                <div class="error_tip">
+                    <p><i></i>请输入手机号码</p>
+                </div>
+                <div class="sub_btn">
+                    <input type="button" value="立即注册">
+                </div>
+
+            </div>
+            <p class="sign_msg">
+                已阅读并同意：小米
+                <a href="">用户协议</a>和
+                <a href="">隐私政策</a>
+            </p>
+            <div class="phone_res">
+                <div class="">
+                    <div class="news_tip">
+                        <p class="news_title">我们已经发送一条验证短信至<span class="news_phone">+86 188******87</span></p>
+                        <p class="in_news">请输入短信中的验证码</p>
+                    </div>
+                    <div class="in_phone">
+                        <div class="in_text">
+                            <input type="text" class="phone_text" placeholder="请输入验证码">
+                            <span class="send_phone">
+                            <span class="re_send">重新发送<i>(0)</i></span>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="error">
+                        <a href="">收不到验证码？</a>
+                    </p>
+                    <div>
+                        <div class="next">
+                            下一步
+                        </div>
+                        <div class="prev">
+                            返回
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sign_news">
+                <div>
+                    <ul>
+                        <li>
+                            <p class="sign_num">您注册的手机号为<span class="phone_n">+86 188******37</span></p>
+                            <p class="sign_num">请设置您的密码：</p>
+                        </li>
+                        <li>
+                            <div class="input_txt">
+                                <div class="input_text">
+                                    <input type="password" name="password" class="pass_one" placeholder="请输入密码">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="input_txt">
+                                <div class="input_text">
+                                    <input type="password" class="pass_two" placeholder="请输入密码">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="pass_tip">
+                        <i class="icon_error"></i> 密码长度8~16位，数字、字母、字符至少包含两种
+                    </p>
+                    <div class="last_sub">
+                        <input type="submit" class="sub_bttn " disabled>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="login-footer">
+            <p class="login-footer-nav">
+                <a href="">简体</a><span>|</span>
+                <a href="">繁体</a><span>|</span>
+                <a href="">English</a><span>|</span>
+                <a href="">常见问题</a><span>|</span>
+                <a href="">隐私政策</a>
+            </p>
+            <p class="inter-safe">
+                小米公司版权所有-京ICP备10046444-
+                <a href=""><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png" alt=""></a>京公网安备11010802020134号-京ICP证110507号
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

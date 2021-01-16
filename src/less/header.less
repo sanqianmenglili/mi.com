@@ -1,5 +1,5 @@
 @charset 'utf-8';
-@import url(../css/shop-car.css);
+@import url(../css/s_car.css);
 @import url(../css/header-search.css);
 @import url(../css/banner.css);
 .header-img {
@@ -20,10 +20,8 @@
     line-height: 40px;
     .nav_left{
         height: 40px;
-  
         float: left;
-        span{
-            
+        span{    
         margin: 0 .3em;
         color: #424242;
          }
@@ -72,6 +70,7 @@
         overflow: hidden;
         -webkit-transition: height .3s;
         transition: height .3s;
+        z-index: 9999;
             img{
                 display: block;
                 margin: 18px auto 12px;
@@ -143,12 +142,12 @@
             }   
         }
     }
-    ul{
+    .header-nav-second{
         overflow: hidden;
         margin: 0;
         float: left;
     }
-    li{
+    .header-nav-second-items{
         float: left;
         padding:0  10px; 
         line-height: 100px;
@@ -196,5 +195,25 @@
     overflow: hidden;
     visibility: hidden;
     clear: both;
+}
+.more_car{
+    background-color:#ff6700 !important;
+    color: #fff !important;
+    i{
+        color: #fff;     
+    }
+    .p_n{
+        color: #fff !important;
+    }
+}
+.shop-car:hover{
+    background-color:#fff !important;
+    color: #ff6700 !important;
+    i{
+        color: #ff6700;     
+    }
+    .p_n{
+        color: #ff6700 !important;
+    }
 }
  

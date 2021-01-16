@@ -1,0 +1,90 @@
+@charset "utf-8";
+.mi-server {
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  z-index: 99;
+}
+.mi-server a {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 90px;
+  margin-top: -1px;
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+  color: #757575;
+}
+.mi-server a:hover {
+  color: #ff6700;
+}
+.mi-server a:hover .t-phone-1 {
+  opacity: 0;
+}
+.mi-server a:hover .t-phone-2 {
+  opacity: 1 !important;
+}
+.mi-server a:hover .phone-app {
+  transform: translate3d(-110%, 0, 0);
+  opacity: 1;
+  visibility: visible;
+}
+.mi-server a .icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 8px;
+  padding-top: 18px;
+  box-sizing: content-box;
+}
+.mi-server a .icon .t-phone-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.mi-server a .icon .t-phone-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.mi-server a .phone-app {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #f5f5f5;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  opacity: 0;
+  visibility: hidden;
+}
+.mi-server a .phone-app img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 6px auto;
+}
+.mi-server a .phone-app span {
+  display: block;
+  width: 82px;
+  margin: 14px auto 0;
+  color: #757575;
+  text-align: center;
+}
+.mi-server .back-top {
+  margin-top: 14px;
+  border-top: 1px solid #f5f5f5;
+}

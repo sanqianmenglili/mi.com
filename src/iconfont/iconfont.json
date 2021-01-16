@@ -20,6 +20,20 @@
       "unicode_decimal": 58886
     },
     {
+      "icon_id": "584251",
+      "name": "右箭头",
+      "font_class": "iconfontjiantou5",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "594370",
+      "name": "对勾",
+      "font_class": "duigou",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
       "icon_id": "720977",
       "name": "坐标",
       "font_class": "xiazai19",
@@ -41,6 +55,13 @@
       "unicode_decimal": 58977
     },
     {
+      "icon_id": "959111",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
       "icon_id": "978354",
       "name": "微信",
       "font_class": "gongzhonghao",
@@ -55,11 +76,32 @@
       "unicode_decimal": 58921
     },
     {
+      "icon_id": "1244196",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
       "icon_id": "1301375",
       "name": "搜索",
       "font_class": "sousuo",
       "unicode": "e662",
       "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "1346640",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "1621626",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e630",
+      "unicode_decimal": 58928
     },
     {
       "icon_id": "1667297",
@@ -69,11 +111,32 @@
       "unicode_decimal": 58935
     },
     {
+      "icon_id": "4933158",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "5203322",
+      "name": "圆圈",
+      "font_class": "yuanquan",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
       "icon_id": "5258984",
       "name": "箭头",
       "font_class": "jiantou",
       "unicode": "e60d",
       "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5831257",
+      "name": "对勾",
+      "font_class": "duigou1",
+      "unicode": "e640",
+      "unicode_decimal": 58944
     },
     {
       "icon_id": "6255764",
@@ -88,6 +151,41 @@
       "font_class": "weibo",
       "unicode": "e608",
       "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7678932",
+      "name": "下箭头-2",
+      "font_class": "xiajiantou-",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "7947752",
+      "name": "空心对勾",
+      "font_class": "kongxinduigou",
+      "unicode": "ed1b",
+      "unicode_decimal": 60699
+    },
+    {
+      "icon_id": "8574987",
+      "name": "支付宝",
+      "font_class": "zhifubao1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10939359",
+      "name": "向下箭头",
+      "font_class": "ico_arrowdown",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12097767",
+      "name": "喜欢",
+      "font_class": "xihuan1",
+      "unicode": "e688",
+      "unicode_decimal": 59016
     },
     {
       "icon_id": "14966524",

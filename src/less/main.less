@@ -8,6 +8,7 @@
     position: relative;
     height: 460px;
     >.list-nav{
+        z-index: 9;
         height: 460px;
         padding: 20px 0;
         box-sizing: border-box;
@@ -61,8 +62,12 @@
                 display: block;
                 padding-top: 18px;
                 color: #fff;
+                opacity: .7;
                 font-size: 12px;
                 text-align: center;
+                &:hover{
+                    opacity: 1;
+                }
             }
             a::after{
                 content: "";
@@ -94,6 +99,7 @@
         display: block;
         width: 316px;
         height: 170px;
+        transition: box-shadow .2s linear,-webkit-box-shadow .2s linear;
     }
 }
 .main{
@@ -111,8 +117,8 @@
     
         .menu{
             position: absolute;
-            right: 0;
-            top: 7px;
+            right: 44px;
+            top: 34px;
             height: 24px;
             span{
          
@@ -130,25 +136,29 @@
                 color: #b0b0b0;
                 text-align: center;
                 cursor: pointer;
-             
+                outline: none;
                  }
+            .swiper-button-next{
+                right: -45px !important;
+            }
+            .swiper-button-prev{
+                left: -25px !important;
+            }
              }
         }
         .mi-shop{
          
             
             box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
-       
            .top{
-            
+            float: left;
             border-top: #e53935 1px solid;
             width: 234px;
             height: 340px;
             padding-top: 39px;
             box-sizing: border-box;
             background: #f1eded;
+            margin-right: 14px;
             .items-title{
                 text-align: center;
                 font-size: 21px;
@@ -194,11 +204,14 @@
             }
     
            }
+          
            .pro{
+               float: left;
+               margin-right: 14px;
                border-top: 1px solid #83c44e;
                width: 234px;
                height: 339px;
-               background-color:rgba(0,0,0,.02);
+               background: #fff;
                a{
                    display: block;
                    width: 234px;
@@ -265,6 +278,13 @@
         color: #424242;
         -webkit-transition: all .4s;
         transition: all .4s;
+        &:hover{
+            color: #ff6700;
+            .see-all-next{
+                background: #ff6700;
+            }
+
+        }
         }
         li{
             font-size: 16px;
@@ -274,12 +294,17 @@
             cursor: pointer;
             line-height: 1.5;
             margin: 0 0 0 30px;
+            &:hover{
+                color: #ff6700;
+              
+            }
         
         }
         .active{        
             color: #ff6700;
             border-bottom: 2px solid #ff6700;
         }
+        
     }
     // 每个部分的title---------------------------
     .title{
@@ -318,11 +343,11 @@
         }
         .col-16 {
             li{
-                width: 234px;
+                width: 234px !important;
                 height: 260px;
                 padding: 20px 0;   
                 float: left;
-                margin-left: 14px;
+                margin-left: 14px !important;
                 margin-bottom: 14px;
                 background: #fff;
                 -webkit-transition: all .2s linear;
@@ -443,44 +468,22 @@
     // 手机---------------------------------------
     .phone{
         position: relative;
-    
-        .phone-title{
-            margin: 0;
-            font-size: 22px;
-            font-weight: 200;
-            line-height: 58px;
-            color: #333;
-            position: relative;
-            .more{
-                position: absolute;
-                top: 0;
-                right: 0;
-                a{
-               
-                    font-size: 16px;
-                    line-height: 58px;
-                    color: #424242;
-                    -webkit-transition: all .4s;
-                    transition: all .4s;
-    
-                    .see-all-next{
-                        width: 12px;
-                        height: 12px;
-                        padding: 4px;
-                        margin-left: 8px;
-                        border-radius: 16px;
-                        font-size: 12px;
-                        line-height: 12px;
-                        background: #b0b0b0;
-                        color: #fff;
-                        vertical-align: 1px;
-                        -webkit-transition: all .4s;
-                        transition: all .4s;
-                        box-sizing: content-box;
-                    }
-                }
-            }
+        .see-all-next{
+            width: 12px;
+            height: 12px;
+            padding: 4px;
+            margin-left: 8px;
+            border-radius: 16px;
+            font-size: 12px;
+            line-height: 12px;
+            background: #b0b0b0;
+            color: #fff;
+            vertical-align: 1px;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            box-sizing: content-box;
         }
+
 
         .pro{
 
@@ -504,6 +507,21 @@
     }
     //视频---------------------------------------
     .video{
+        .see-all-next{
+            width: 12px;
+            height: 12px;
+            padding: 4px;
+            margin-left: 8px;
+            border-radius: 16px;
+            font-size: 12px;
+            line-height: 12px;
+            background: #b0b0b0;
+            color: #fff;
+            vertical-align: 1px;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            box-sizing: content-box;
+        }
       li{
         width: 296px;
         height: 285px;
@@ -515,6 +533,8 @@
         background: #fff;
         -webkit-transition: all .2s linear;
         transition: all .2s linear;
+       
+       
         div{
             position: relative;
             width: 296px;
@@ -523,6 +543,13 @@
             img{
                 width: 296px;
                 height: 180px;
+            }
+            &:hover{
+                .play{
+                    background-color:  #ff6700;
+                    border: 2px solid #ff6700 !important;
+                }
+             
             }
             .play{
                 position: absolute;
@@ -542,6 +569,7 @@
                 font-size: 12px;
                 text-align: center;
                 line-height: 20px;
+                
             }
         }
         p{
@@ -556,6 +584,7 @@
         }
        
       }
+    
     }
 }
  //每个items的H6标题/p---------------------------

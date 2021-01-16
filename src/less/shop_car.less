@@ -1,0 +1,617 @@
+@charset 'utf-8';
+@import '../css/reset.css';
+@import  '../iconfont/iconfont.css';
+@import '../css/footer.css';
+
+
+.shop_head{
+    font-size: 12px;
+    border-bottom: 2px solid #ff6700;
+    background: #fff;
+    color: #b0b0b0;
+    position: relative;
+    z-index: 20;
+    height: 100px;
+    .mi_logo{
+        width: 93px;
+        margin-top: 26px;
+        float: left;
+        .logo{
+            display: block;
+            width: 48px;
+            height: 48px;
+            overflow: hidden;
+            display: block;
+            background: #ff6700 url(../img/sprite.png);
+            background-position: -49px center;
+            transition: all 0.3s;
+            &:hover{
+                background-position: 0px center;
+            }
+        }
+    }
+    .car_title{
+        height: 48px;
+        float: left;
+        margin-top: 26px;
+        h2{
+            float: left;
+            line-height: 48px;
+            margin-bottom: 0;
+            font-size: 28px;
+            font-weight: 400;
+            color: #424242;
+        }
+        p{
+            float: left;
+            height: 20px;
+            line-height: 20px;
+            margin-top: 20px;
+            margin-left: 15px;
+            color: #757575;
+        }
+    }
+    .admin{
+        position: relative;
+        float: right;
+        height: 40px;
+        line-height: 40px;   
+        margin-top: 30px;
+        .user{
+            float: left;
+            position: relative;
+            width: 110px;
+            padding: 0;
+            white-space: nowrap;
+            &:hover{
+                .user_info{
+                    height: 164px;
+                }
+            }
+            .user_name{
+                position: relative;
+                z-index: 5;
+                display: block;
+                width: 110px;
+                height: 40px;
+                text-align: center;
+                background-color: #fff;
+                color: #757575;
+                &:hover{
+                    color: #ff6700;
+                }
+                .name{
+                    display: inline-block;
+                    width: auto;
+                    max-width: 75px;
+                    text-overflow: ellipsis;
+                    vertical-align: text-bottom;
+                    overflow: hidden;
+                }
+                i{
+                    font-size: 15px;
+                     vertical-align: 11px;
+
+                }
+            }
+            .user_info{
+                position: absolute;
+                left: 0;
+                top: 40px;
+                z-index: 3;
+                height: 0;
+                overflow: hidden;
+                transition: height .3s;
+                background: #fff;
+                box-shadow: 0 2px 10px rgba(0,0,0,.15);
+                .user_menu{
+                    width: 110px;
+                    margin: 0;
+                    padding: 7px 0;
+                    a{
+                        display: block;
+                        padding: 3px 30px;
+                        line-height: 2;
+                        transition: all .2s;
+                        color: #424242;
+                        background-color: #fff;
+                        &:hover{
+                            background-color: #f5f5f5;
+                            color: #ff6700;
+                        }
+                    }
+                    .active{
+                        background-color: #f5f5f5;
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+        .line{
+            float: left;
+        }
+        .my_pro{
+            width: 70px;
+            padding: 0 5px;
+            text-align: center;
+            float: left;
+            color: #757575;
+            &:hover{
+                color: #ff6700;
+            }
+        }
+    }
+}
+.shop_main{
+    padding: 38px 0;
+    background: #f5f5f5;
+    .car_pro_box{
+        background-color: #fff;
+        color: #424242;
+
+
+// -------------------------------------------------
+
+// -------------------------------------------------
+
+
+        .pro_list_head{
+            height: 70px;
+            line-height: 70px;
+            padding-right: 26px;
+            color: #424242;
+            .pro_check{
+                float: left;
+                width: 110px;
+                i{
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    line-height: 18px;
+                    border: 1px solid #e0e0e0;
+                    margin-left: 24px;
+                    background-color: #fff;
+                    color: #fff;
+                    font-size: 20px;
+                    text-align: center;
+                    vertical-align: middle;
+                    position: relative;
+                    top: -1px;
+                    cursor: pointer;
+                    margin-right: 15px;
+                    &:hover{
+                        color: #757575;
+                    }
+                }
+                .check_active{
+                    margin-right: 15px;
+                    border-color: #ff6700;
+                    background-color: #ff6700;
+                    color: #fff !important;
+                }
+            }
+            .car_pro_img{
+                width: 120px;
+                float: left;
+            }
+            .car_pro_name{
+                width: 380px;
+                float: left;
+            }
+            .car_pro_price{
+                width: 140px;
+                padding-right: 18px;
+                text-align: center;
+                float: left;
+            }
+            .car_pro_num{
+                width: 150px;
+                text-align: center;
+                float: left;
+            }
+            .car_pro_all{
+                width: 120px;
+                padding-right: 81px;
+                text-align: right;
+                float: left;
+            }
+            .car_pro_del{
+                width: 80px;
+                text-align: center;
+                float: left;
+            }
+        }
+        .car_pro_item{
+            padding: 15px 26px 15px 0;
+            border-top: 1px solid #e0e0e0;
+           .car_pro_table{
+            display: table;
+            .pro_item{
+                display:table-row;
+                .pro_check{
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 110px;
+                    i{
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        line-height: 18px;
+                        border: 1px solid #e0e0e0;
+                        margin-left: 24px;
+                        background-color: #fff;
+                        color: #fff;
+                        font-size: 20px;
+                        text-align: center;
+                        vertical-align: middle;
+                        position: relative;
+                        top: -1px;
+                        cursor: pointer;
+                        margin-right: 15px;
+                        &:hover{
+                            color: #757575;
+                        }
+                    }
+                    .check_active{
+                        margin-right: 15px;
+                        border-color: #ff6700;
+                        background-color: #ff6700;
+                        color: #fff !important;
+                    }
+                }
+                .car_pro_img{
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 80px;
+                    height: 80px;
+                    padding-right: 40px;
+                    overflow: hidden;
+                    img{
+                        display: block;
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                .car_pro_name{
+                    width: 380px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    a{
+                        color: #424242;
+                        font-size: 1.17em;
+                        font-weight: bold;
+                    }
+                }
+                .car_pro_price{
+                    width: 140px;
+                    padding-right: 18px;
+                    text-align: center;
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                .car_pro_num{
+                    width: 150px;
+                    text-align: center;
+                    display: table-cell;
+                    vertical-align: middle;
+                    .car_pro_n{
+                        width: 148px;
+                        height: 38px;
+                        text-align: center;
+                        background-color: #fff;
+                        position: relative;
+                        border: 1px solid #e0e0e0;
+                        span{
+                            float: left;
+                            height: 38px;
+                            width: 38px;
+                            color: #757575;
+                            line-height: 38px;
+                            font-size: 20px;
+                            transition: all .3s;
+                            &:hover{
+                                background-color: #e0e0e0;
+                            }
+                        }
+                        input[type="text"]{
+                            float: left;
+                            height: 38px;
+                            width: 72px;
+                            line-height: 38px;
+                            padding: 0;
+                            border-width: 0;
+                            color: #424242;
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                    }
+                }
+                .car_pro_all{
+                    width: 120px;
+                    padding-right: 81px;
+                    text-align: right;
+                    display: table-cell;
+                    vertical-align: middle;
+                    color: #ff6700;
+                    font-size: 16px;
+                }
+                .car_pro_del{
+                    width: 80px;
+                    text-align: center;
+                    display: table-cell;
+                    vertical-align: middle;
+                    .btn_del{
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        line-height: 24px;
+                        text-align: center;
+                        border-radius: 12px;
+                        color: #757575;
+                        font-size: 16px;
+                        transition: all .3s;
+                        &:hover{
+                            
+                            background-color: #e53935;
+                            i{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+           }
+           .car_pro_insure{
+               margin-bottom: -2px;
+               margin-left: 100px;
+               position: relative;
+               padding-top: 15px;
+               .buy_insure{
+                   height: 48px;
+                   line-height: 48px;
+                   border: 1px solid #e0e0e0;
+                   padding-left: 20px;
+                   margin-bottom: -1px;
+                   color: #424242;
+                   transition: all .4s;
+                   cursor: pointer;
+                   i{
+                       margin-right: 15px;
+                       display: inline-block;
+                       width: 22px;
+                       height: 22px;
+                       font-size: 22px;
+                       line-height: 1;
+                       border-radius: 11px;
+                       text-align: center;
+                       background: #ff6700;
+                       color: #fff;
+                       vertical-align: middle;
+                       position: relative;
+                       top: -1px;
+                   }
+                   a{
+                    margin-left: 20px;
+                    color: #ff6700;
+                   }
+               }
+           }
+        }
+    }
+    .car_pro_pay{
+        margin-top:20px;
+        height: 50px;
+        text-align: right;
+        background-color: #fff;
+        transition: background .3s ease,top .3s ease;
+        position: relative;
+        .pay_left{
+            float: left;
+            .continue{
+                line-height: 50px;
+                margin-left: 32px;
+                transition: color .3s;
+                color: #757575;
+                &:hover{
+                    color: #ff6700;
+                }
+            }
+            span{
+                margin-left: 16px;
+                padding-left: 16px;
+                border-left: 1px solid #eee;
+                color: #757575;
+                i{
+                    color: #ff6700;
+                }
+            }
+        }
+        .pay_right{
+            padding-left: 13px;
+            color: #ff6700;
+            span{
+                font-size: 30px;
+            }
+            .btn_pay{
+                display:inline-block;
+                width: 200px;
+                height: 48px;
+                line-height: 48px;
+                font-size: 18px;
+                margin-left: 50px;
+                vertical-align: top;
+                background: #ff6700;
+                color: #fff;
+                text-align: center;
+                &:hover{
+                    background-color: #f25807;
+                }
+            }
+        }
+    }
+    .other_pro{
+        margin: 60px 0 0;
+        .other_pro_title{
+            position: relative;
+            height: 50px;
+            font-size: 30px;
+            font-weight: 400;
+            color: #757575;
+            border-top: 1px solid #e0e0e0;
+            margin: 0;
+            span{
+                position: absolute;
+                top: -20px;
+                left: 372px;
+                height: 40px;
+                width: 482px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 400;
+                color: #757575;
+                background-color: #f5f5f5;
+            }
+        }
+        .other_pro_items{
+            ul{
+                margin: 0 0 0 -14px;
+                .other_pro_item{
+                    float: left;
+                    width: 234px;
+                    height: 300px;
+                    margin: 0 0 14px 14px;
+                    position: relative;
+                    overflow: hidden;
+                    list-style: none;
+                    background-color: #fff;
+                    text-align: center;
+                    &:hover{
+                        .other_incar{
+                            bottom: 16px;
+                            opacity: 1;    
+                            transform: translate(0);
+                        }
+                        .incar_sess_in{
+                            opacity: 1; 
+                            transform: translate(0);
+                        }
+                    }
+                    a{
+                        color: #757575;
+                        img{
+                            display: block;
+                            margin: 40px auto 20px;
+                            width: 140px;
+                            height: 140px;
+                        }
+                        .item_name{
+                            margin: 0 10px 10px;
+                            height: 18px;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            color: #333;
+                        }
+                        .item_price{
+                            margin-bottom: 10px;
+                            color: #ff6700;
+                        }
+                        .item_people{
+                            color: #757575;
+                        }
+                    }
+                    .other_incar{
+                        position: absolute;
+                        left: 0;
+                        bottom: 16px;
+                        width: 100%;
+                        opacity: 0;
+                        transform: translate3d(0,200%,0);
+                        transition: all .4s;
+                        a{
+                            display: inline-block;
+                            width: 120px;
+                            border: 1px solid #ff6700;
+                            color: #ff6700;
+                            background: #fff;
+                            height: 28px;
+                            font-size: 12px;
+                            line-height: 28px; 
+                            &:hover{
+                                display: inline-block;
+                                padding: 0;
+                                margin: 0;
+                                text-align: center;
+                                cursor: pointer;
+                                transition: all .4s;
+                                background-color: #f25807;
+                                border-color: #f25807;
+                                color: #fff;
+                                outline: none;
+                                
+                            }
+                        }
+                    }
+                    .incar_sess{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 5;
+                        width: 100%;
+                        opacity: 0;
+                        transform: translate3d(0,-10px,0);
+                        transition: all .2s linear;
+                        a{
+                            background: #83c44e;
+                            border-color: #83c44e;
+                            color: #fff;
+                            display: block;
+                            width: 100%;
+                            height: 38px;
+                            border: 1px solid #83c44e;
+                            font-size: 14px;
+                            line-height: 38px;
+                            text-align: center;
+                            cursor: pointer;
+                            transition: all .4s  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.shop_main{
+    .car_null{
+        display: none;
+        height: 273px;
+        padding-left: 558px;
+        margin: 65px 0 130px;
+        background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/cart/cart-empty.png) no-repeat 124px 0;
+        color: #b0b0b0;
+        overflow: hidden;
+        .null_tip{
+            margin: 70px 0 0 0;
+            font-size: 36px;
+            color: #b0b0b0;
+            font-weight: 700;
+        }
+        .btn_buy{
+            display: inline-block;
+            text-align: center;
+            margin-top: 15px;
+            width: 170px;
+            height: 48px;
+            line-height: 48px;
+            background: #ff6700;
+            color: #fff;
+            border-color: #ff6700;
+            transition: all .4s;
+            &:hover{
+                background-color: #f25807;
+                color: #fff;
+            }
+        }
+    }
+}
