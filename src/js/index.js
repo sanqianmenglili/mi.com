@@ -1,5 +1,5 @@
 import './jquery.js';
-import '../swiper-master/package/swiper-bundle.min.js'
+import './swiper-bundle.min.js'
 import '../js/library/jquery.lazyload.js'
 import '../js/php.js'
 
